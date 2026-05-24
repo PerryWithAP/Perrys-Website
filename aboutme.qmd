@@ -46,7 +46,9 @@ title: "About Me"   # ✏️ This becomes the page title shown in the browser ta
 
 Hello I am Perry,
 
-I am attending UNC Chapel Hill to obtain practical experience and a large skillset in the field of statistics and biostatistics and to apply the skills learned in research, personal projects, and data analysis opportunities.
+a Statistics and Biostatistics student at University of North Carolina at Chapel Hill with experience in machine learning, epidemiological modeling, 
+scientific computing, and data visualization. I have participated in multiple datathons getting practical experience in project management and version 
+control systems. I have volunteered as a ressearch assistant for multiple labs and took on an essential role as Co-president of Biokind Analytics at UNC Chapel Hill.
 
 ```{=html}
 <!-- ============================================================
