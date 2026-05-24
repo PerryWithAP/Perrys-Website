@@ -23,7 +23,10 @@ website:
         href: proj.qmd
       - text: "Artwork"
         href: Artwork.qmd
-
+      - text: "Textbooks and Newsletters"
+        href: textbooks-newsletters.qmd
+      - text: "Leadership"
+        href: Leadership.qmd
 format:
   html:
     theme: yeti

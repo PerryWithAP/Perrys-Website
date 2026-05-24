@@ -4,14 +4,14 @@
     "href": "proj.html",
     "title": "Projects",
     "section": "",
-    "text": "✏️ A brief intro about your projects goes here."
+    "text": "A lot of my projects have come naturally from college courses, research assistant work, and self teaching myself how to code and use data science techniques."
   },
   {
     "objectID": "aboutme.html",
     "href": "aboutme.html",
     "title": "About Me",
     "section": "",
-    "text": "Hello I am Perry,\nI am attending UNC Chapel Hill to obtain practical experience and a large skillset in the field of statistics and biostatistics and to apply the skills learned in research, personal projects, and data analysis opportunities.\n\nMy Resume\n\nTo view more information about my projects, please visit the Projects tab.\n\nContact Information:\n\nEmail: psor1241@unc.edu\nLinkedIn: Perry Sorenson"
+    "text": "Hello I am Perry,\nI am attending UNC Chapel Hill to obtain practical experience and a large skillset in the field of statistics and biostatistics and to apply the skills learned in research, personal projects, and data analysis opportunities.\n\nMy Resume\n\nTo view more information about my projects, please visit the Projects tab.\n\nContact Information:\n\nEmail: psor1241@unc.edu\nLinkedIn: Perry Sorenson\nGithub: PerryWithAP"
   },
   {
     "objectID": "proj.html#project-title",
@@ -25,27 +25,83 @@
     "href": "proj.html#project-title-1",
     "title": "Projects",
     "section": "✏️ Project Title",
-    "text": "✏️ Project Title\nCourse: ✏️ STOR 155 — Introduction to Statistics\nDate: ✏️ Spring 2025\nTags: ✏️ R Statistics ggplot2\n✏️ Description of your second project goes here.\n\n&lt;p&gt;\nYour browser can’t preview PDFs. &lt;a href=\"✏️ example_report2.pdf\"&gt;Click here to download instead.&lt;/a&gt;\n&lt;/p&gt;\n\n⬇ Download PDF"
+    "text": "✏️ Project Title\nCourse: ✏️ COMP 101 — Introduction to Programming\nDate: ✏️ Fall 2024\nTags: ✏️ Python Data Analysis Visualization  ✏️ Write 2–3 sentences describing what this project is about, what problem it solves, and what tools or methods you used. Keep it approachable — imagine explaining it to someone outside your major.\n\n\n&lt;p&gt;\nYour browser can’t preview PDFs. &lt;a href=\"✏️ example_report.pdf\"&gt;Click here to download instead.&lt;/a&gt;\n&lt;/p&gt;\n\n\n⬇ Download PDF"
   },
   {
     "objectID": "proj.html#project-title-2",
     "href": "proj.html#project-title-2",
     "title": "Projects",
     "section": "✏️ Project Title",
-    "text": "✏️ Project Title\nCourse: ✏️ BIOL 201 — Cell Biology\nDate: ✏️ Fall 2025\nTags: ✏️ Research Lab Report Data Collection\n✏️ Description of your third project goes here.\n\n&lt;p&gt;\nYour browser can’t preview PDFs. &lt;a href=\"✏️ example_report3.pdf\"&gt;Click here to download instead.&lt;/a&gt;\n&lt;/p&gt;\n\n⬇ Download PDF"
+    "text": "✏️ Project Title\nCourse: ✏️ COMP 101 — Introduction to Programming\nDate: ✏️ Fall 2024\nTags: ✏️ Python Data Analysis Visualization  ✏️ Write 2–3 sentences describing what this project is about, what problem it solves, and what tools or methods you used. Keep it approachable — imagine explaining it to someone outside your major.\n\n\n&lt;p&gt;\nYour browser can’t preview PDFs. &lt;a href=\"✏️ example_report.pdf\"&gt;Click here to download instead.&lt;/a&gt;\n&lt;/p&gt;\n\n\n⬇ Download PDF"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Perry Sorenson’s Website",
     "section": "",
-    "text": "Welcome to my personal website! Here you will find information about me and my work. Feel free to explore using the navigation bar above.\n\nVisit the About Me tab to learn more about my background and how to get in touch.\nVisit the Projects tab to see examples of my work.\nVisit the Artwork tab to see examples of my work."
+    "text": "Welcome to my personal website! Here you will find information about me and my work. Feel free to explore using the navigation bar above.\n\nVisit the About Me tab to learn more about my background and how to get in touch.\nVisit the Projects tab to see examples of my work.\nVisit the Artwork tab to see examples of my work.\nVisit the Textbooks and Newsletters tab to see textbooks and newsletters I would recommend.\nVisit the Leadership tab to see my leadership experience."
   },
   {
     "objectID": "Artwork.html",
     "href": "Artwork.html",
     "title": "Artwork",
     "section": "",
-    "text": "Medium: Bling Contour\nSize: 500 x 500\n\n\n\nMedium: Contour\nSize: 500 x 500\n\n\n\nMedium: Contour\nSize: 500 x 730\n\n\n\nMedium: Line Weight\nSize: 560 x 730\n\n\n\nMedium: Negative Space\nSize: 500 x 700\n\n\n\nMedium: Planes\nSize: 700 x 500\n\n\n\nMedium: Planes\nSize: 700 x 500\n\n\n\nMedium: Values\nSize: 500 x 800\n\n\n\nMedium: Perspective\nSize: 700 x 900\n\n\n\nMedium: Perspective\nSize: 700 x 800\n\n\n\nMedium: Perspective\nSize: 700 x 700\n\n\n\nMedium: Perspective\nSize: 900 x 1300\n\n\n\nMedium: Perspective\nSize: 700 x 500\n\n\n\nMedium: Collaborative Drawing\nSize: 900 x 1100\n\n\n\nMedium: Texture\nSize: 800 x 700\n\n\n\nMedium: Texture\nSize: 500 x 500\n\n\n\nMedium: Drapery\nSize: 950 x 1000\n\n\n\nMedium: Gesture Drawing\nSize: 700 x 500\n\n\n\nMedium: Words and Texture\nSize: 500 x 800"
+    "text": "Medium: Blind Contour\nSize: 500 x 500\n\n\n\nMedium: Contour\nSize: 500 x 500\n\n\n\nMedium: Contour\nSize: 500 x 730\n\n\n\nMedium: Line Weight\nSize: 560 x 730\n\n\n\nMedium: Negative Space\nSize: 500 x 700\n\n\n\nMedium: Planes\nSize: 700 x 500\n\n\n\nMedium: Planes\nSize: 700 x 500\n\n\n\nMedium: Values\nSize: 500 x 800\n\n\n\nMedium: Perspective\nSize: 700 x 900\n\n\n\nMedium: Perspective\nSize: 700 x 800\n\n\n\nMedium: Perspective\nSize: 700 x 700\n\n\n\nMedium: Perspective\nSize: 900 x 1300\n\n\n\nMedium: Perspective\nSize: 700 x 500\n\n\n\nMedium: Collaborative Drawing\nSize: 900 x 1100\n\n\n\nMedium: Texture\nSize: 800 x 700\n\n\n\nMedium: Texture\nSize: 500 x 500\n\n\n\nMedium: Drapery\nSize: 950 x 1000\n\n\n\nMedium: Gesture Drawing\nSize: 700 x 500\n\n\n\nMedium: Words and Texture\nSize: 500 x 800"
+  },
+  {
+    "objectID": "proj.html#dashboard-for-different-metrics-of-a-simulated-heart-model",
+    "href": "proj.html#dashboard-for-different-metrics-of-a-simulated-heart-model",
+    "title": "Projects",
+    "section": "Dashboard for Different Metrics of a Simulated Heart Model",
+    "text": "Dashboard for Different Metrics of a Simulated Heart Model\nLab: Cardiovascular Modeling and Simulation Laboratory — Under David Wells\nDate: May 2025 - February 2026\nTags: Python Visualization Plotly Calculus Github Making an interactive visualization portal using a python package called plotly to observe various metrics of the heart including volume, pressure, and flow within the left ventricle of a simulated heart. Creating a system that determines if the flow is into or out of the heart and visualizes a pressure-volume loop based on that information.\n\n\n&lt;p&gt;\nYour browser can’t preview PDFs. &lt;a href=\" Dashboard-Griffith-OutputExample.pdf\"&gt;Click here to download instead.&lt;/a&gt;\n&lt;/p&gt;\n\n\n⬇ Download PDF"
+  },
+  {
+    "objectID": "proj.html#project-title-3",
+    "href": "proj.html#project-title-3",
+    "title": "Projects",
+    "section": "✏️ Project Title",
+    "text": "✏️ Project Title\nCourse: ✏️ COMP 101 — Introduction to Programming\nDate: ✏️ Fall 2024\nTags: ✏️ Python Data Analysis Visualization  ✏️ Write 2–3 sentences describing what this project is about, what problem it solves, and what tools or methods you used. Keep it approachable — imagine explaining it to someone outside your major.\n\n\n&lt;p&gt;\nYour browser can’t preview PDFs. &lt;a href=\"✏️ example_report.pdf\"&gt;Click here to download instead.&lt;/a&gt;\n&lt;/p&gt;\n\n\n⬇ Download PDF"
+  },
+  {
+    "objectID": "proj.html#project-title-4",
+    "href": "proj.html#project-title-4",
+    "title": "Projects",
+    "section": "✏️ Project Title",
+    "text": "✏️ Project Title\nCourse: ✏️ COMP 101 — Introduction to Programming\nDate: ✏️ Fall 2024\nTags: ✏️ Python Data Analysis Visualization  ✏️ Write 2–3 sentences describing what this project is about, what problem it solves, and what tools or methods you used. Keep it approachable — imagine explaining it to someone outside your major.\n\n\n&lt;p&gt;\nYour browser can’t preview PDFs. &lt;a href=\"✏️ example_report.pdf\"&gt;Click here to download instead.&lt;/a&gt;\n&lt;/p&gt;\n\n\n⬇ Download PDF"
+  },
+  {
+    "objectID": "proj.html#using-high-performance-computing-paraview-and-ffmpeg-to-create-videos-of-simulated-heart-model",
+    "href": "proj.html#using-high-performance-computing-paraview-and-ffmpeg-to-create-videos-of-simulated-heart-model",
+    "title": "Projects",
+    "section": "Using High Performance Computing, Paraview, and Ffmpeg To Create Videos of Simulated Heart Model",
+    "text": "Using High Performance Computing, Paraview, and Ffmpeg To Create Videos of Simulated Heart Model\nLab: Cardiovascular Modeling and Simulation Laboratory — Under David Wells\nDate: February 2026 - Now\nTags: Linux HPC Paraview Python ffmpeg\nUsing the university’s HPC called Longleaf to extract 3D visuals through shell scripts and then using a linux package ffmpeg to create movies to show the flow of individual liquid particles in the heart over time.\n\n\n⬇ Download MP4"
+  },
+  {
+    "objectID": "proj.html#chinese-donations-to-latin-countries-during-covid-19-effectiveness-and-pre-emptiveness-analysis",
+    "href": "proj.html#chinese-donations-to-latin-countries-during-covid-19-effectiveness-and-pre-emptiveness-analysis",
+    "title": "Projects",
+    "section": "Chinese Donations To Latin Countries During COVID-19 Effectiveness and Pre-emptiveness Analysis",
+    "text": "Chinese Donations To Latin Countries During COVID-19 Effectiveness and Pre-emptiveness Analysis\nCourse: STOR 320 — Introduction to Data Science\nDate: Fall 2025\nTags: Python Data Science Project Management Epidemiology Statistics\nApplied epidemiological modeling methods like the distributed lag model to evaluate relationships between medical item donations and COVID-19 outcomes across Latin American countries at different points of time.\n\n&lt;p&gt;\nYour browser can’t preview PDFs. &lt;a href=\"An analysis of effectiveness of medical item donations to various Latin American countries during COVID-19.pdf\"&gt;Click here to download instead.&lt;/a&gt;\n&lt;/p&gt;\n\n⬇ Download PDF"
+  },
+  {
+    "objectID": "proj.html#an-analysis-of-the-relationship-between-moderate-social-drinking-and-sports-betting",
+    "href": "proj.html#an-analysis-of-the-relationship-between-moderate-social-drinking-and-sports-betting",
+    "title": "Projects",
+    "section": "An Analysis of The Relationship Between Moderate Social Drinking and Sports Betting",
+    "text": "An Analysis of The Relationship Between Moderate Social Drinking and Sports Betting\nCourse: EPID 600 — Principles of Epidemiology for Public Health\nDate: Spring 2026\nTags: Epidemiolgy Logistic Regression Survey Design Pingouin  Conducting survey-based epidemiological analysis examining relationships between moderate social drinking and sports betting behaviors among college students and then using Pingouin to do logistic analysis.\n\n\n&lt;p&gt;\nYour browser can’t preview PDFs. &lt;a href=\"An Analysis of The Relationship Between Moderate Social Drinking and Sports Betting.pdf\"&gt;Click here to download instead.&lt;/a&gt;\n&lt;/p&gt;\n\n\n⬇ Download PDF"
+  },
+  {
+    "objectID": "proj.html#a-peace-and-safety-centered-analysis-of-education-mental-health-provider-accessibility-and-food-insecurity-in-edgecomb-county",
+    "href": "proj.html#a-peace-and-safety-centered-analysis-of-education-mental-health-provider-accessibility-and-food-insecurity-in-edgecomb-county",
+    "title": "Projects",
+    "section": "A Peace and Safety Centered Analysis of Education, Mental Health Provider Accessibility, and Food Insecurity in Edgecomb County",
+    "text": "A Peace and Safety Centered Analysis of Education, Mental Health Provider Accessibility, and Food Insecurity in Edgecomb County\nOrganization: Biokind Analytics\nDate: August 2025 - April 2026\nTags: Python PCA Visualization OLS  Using visualization as well as PCA analysis to examine multiple social determinants with multicollinearity to strategize on how to improve those social determinants.\n\n\n&lt;p&gt;\nYour browser can’t preview PDFs. &lt;a href=\"Biokind Write Up - Perry Sorenson.pdf\"&gt;Click here to download instead.&lt;/a&gt;\n&lt;/p&gt;\n\n\n⬇ Download PDF"
+  },
+  {
+    "objectID": "proj.html#using-tensorflow-and-pytorch-to-detect-tremors",
+    "href": "proj.html#using-tensorflow-and-pytorch-to-detect-tremors",
+    "title": "Projects",
+    "section": "Using TensorFlow and PyTorch to Detect Tremors",
+    "text": "Using TensorFlow and PyTorch to Detect Tremors\nCourse: Bai lab — Under Sicheng Xing\nDate: Ongoing\nTags: Pytorch Visualization Tensorflow Python Github  Developing convolutional neural networks and autoencoders to denoise biosensor time-series data and classify electrophysiological tremor patterns."
   }
 ]

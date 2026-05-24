@@ -57,7 +57,7 @@ I am attending UNC Chapel Hill to obtain practical experience and a large skills
   ============================================================ -->
 ```
 
-[My Resume](Sorenson%20Perry%20Resume.pdf)
+[My Resume](Perry E Sorenson Resume.pdf)
 
 ```{=html}
 <!-- ============================================================
@@ -88,3 +88,4 @@ To view more information about my projects, please visit the [Projects](proj.qmd
 
 -   Email: [psor1241\@unc.edu](mailto:psor1241@unc.edu)
 -   LinkedIn: [Perry Sorenson](https://www.linkedin.com/in/perry-sorenson-152245317/)
+-   Github: [PerryWithAP](https://github.com/PerryWithAP)

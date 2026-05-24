@@ -10,13 +10,11 @@ title: "Projects"   # ✏️ Shown in the browser tab and page header
 
 ```{=html}
 <!-- ============================================================
-  OPTIONAL: Short intro sentence at the top of the page.
-  ✏️ Replace or delete this.
-  Example: "Here's a selection of projects from my coursework and personal work."
+  A lot of my projects have come naturally from college courses, research assistant work, and self teaching myself how to code and use data science techniques.
 ============================================================ -->
 ```
 
-✏️ A brief intro about your projects goes here.
+A lot of my projects have come naturally from college courses, research assistant work, and self teaching myself how to code and use data science techniques.
 
 ------------------------------------------------------------------------
 
@@ -28,12 +26,11 @@ title: "Projects"   # ✏️ Shown in the browser tab and page header
 ============================================================ -->
 ```
 
-## ✏️ Project Title
+## Dashboard for Different Metrics of a Simulated Heart Model
 
-**Course:** ✏️ COMP 101 — Introduction to Programming\
-**Date:** ✏️ Fall 2024\
-**Tags:** ✏️ `Python` `Data Analysis` `Visualization` <!-- Tags: just type whatever labels apply, wrapped in backticks like above -->
-✏️ Write 2–3 sentences describing what this project is about, what problem it solves, and what tools or methods you used. Keep it approachable — imagine explaining it to someone outside your major.
+**Lab:** Cardiovascular Modeling and Simulation Laboratory — Under David Wells\
+**Date:** May 2025 - February 2026\
+**Tags:** `Python` `Visualization` `Plotly` `Calculus` `Github`<!-- Tags: just type whatever labels apply, wrapped in backticks like above --> Making an interactive visualization portal using a python package called plotly to observe various metrics of the heart including volume, pressure, and flow within the left ventricle of a simulated heart. Creating a system that determines if the flow is into or out of the heart and visualizes a pressure-volume loop based on that information.
 
 ```{=html}
 <!-- PDF PREVIEW
@@ -46,15 +43,15 @@ title: "Projects"   # ✏️ Shown in the browser tab and page header
 -->
 ```
 
-<iframe src="example_report.pdf" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 4px;">
+<iframe src="Dashboard-Griffith-OutputExample.pdf" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 4px;">
 
-<p>Your browser can't preview PDFs. <a href="✏️ example_report.pdf">Click here to download instead.</a></p>
+<p>Your browser can't preview PDFs. <a href=" Dashboard-Griffith-OutputExample.pdf">Click here to download instead.</a></p>
 
 </iframe>
 
 <!-- OPTIONAL: direct download link below the preview -->
 
-[⬇ Download PDF](✏️%20example_report.pdf)
+[⬇ Download PDF](Dashboard-Griffith-OutputExample.pdf)
 
 ------------------------------------------------------------------------
 
@@ -65,21 +62,19 @@ title: "Projects"   # ✏️ Shown in the browser tab and page header
 ============================================================ -->
 ```
 
-## ✏️ Project Title
+## Using High Performance Computing, Paraview, and Ffmpeg To Create Videos of Simulated Heart Model
 
-**Course:** ✏️ STOR 155 — Introduction to Statistics\
-**Date:** ✏️ Spring 2025\
-**Tags:** ✏️ `R` `Statistics` `ggplot2`
+**Lab:** Cardiovascular Modeling and Simulation Laboratory — Under David Wells\
+**Date:** February 2026 - Now\
+**Tags:** `Linux` `HPC` `Paraview` `Python` `ffmpeg` 
 
-✏️ Description of your second project goes here.
+Using the university’s HPC called Longleaf to extract 3D visuals through shell scripts and then using a linux package ffmpeg to create movies to show the flow of individual liquid particles in the heart over time. 
 
-<iframe src="example_report2.pdf" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 4px;">
-
-<p>Your browser can't preview PDFs. <a href="✏️ example_report2.pdf">Click here to download instead.</a></p>
+{{< video output.mp4 >}}
 
 </iframe>
 
-[⬇ Download PDF](✏️%20example_report2.pdf)
+[⬇ Download MP4](output.mp4)
 
 ------------------------------------------------------------------------
 
@@ -90,21 +85,21 @@ title: "Projects"   # ✏️ Shown in the browser tab and page header
 ============================================================ -->
 ```
 
-## ✏️ Project Title
+## Chinese Donations To Latin Countries During COVID-19 Effectiveness and Pre-emptiveness Analysis
 
-**Course:** ✏️ BIOL 201 — Cell Biology\
-**Date:** ✏️ Fall 2025\
-**Tags:** ✏️ `Research` `Lab Report` `Data Collection`
+**Course:** STOR 320 — Introduction to Data Science\
+**Date:** Fall 2025\
+**Tags:** `Python` `Data Science` `Project Management` `Epidemiology` `Statistics`
 
-✏️ Description of your third project goes here.
+Applied epidemiological modeling methods like the distributed lag model to evaluate relationships between medical item donations and COVID-19 outcomes across Latin American countries at different points of time.   
 
-<iframe src="example_report3.pdf" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 4px;">
+<iframe src="An analysis of effectiveness of medical item donations to various Latin American countries during COVID-19.pdf" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 4px;">
 
-<p>Your browser can't preview PDFs. <a href="✏️ example_report3.pdf">Click here to download instead.</a></p>
+<p>Your browser can't preview PDFs. <a href="An analysis of effectiveness of medical item donations to various Latin American countries during COVID-19.pdf">Click here to download instead.</a></p>
 
 </iframe>
 
-[⬇ Download PDF](✏️%20example_report3.pdf)
+[⬇ Download PDF](An analysis of effectiveness of medical item donations to various Latin American countries during COVID-19.pdf)
 
 ```{=html}
 <!-- ============================================================
@@ -113,3 +108,109 @@ title: "Projects"   # ✏️ Shown in the browser tab and page header
   and paste it at the bottom. Update all the ✏️ placeholders.
 ============================================================ -->
 ```
+
+------------------------------------------------------------------------
+
+```{=html}
+<!-- ============================================================
+  PROJECT 1
+  ✏️ Fill in every placeholder marked with ✏️
+  Copy this entire block (up to the next ---) to add more projects.
+============================================================ -->
+```
+
+## An Analysis of The Relationship Between Moderate Social Drinking and Sports Betting
+
+**Course:** EPID 600 — Principles of Epidemiology for Public Health\
+**Date:** Spring 2026\
+**Tags:** `Epidemiolgy` `Logistic Regression` `Survey Design` `Pingouin` <!-- Tags: just type whatever labels apply, wrapped in backticks like above --> Conducting survey-based epidemiological analysis examining relationships between moderate social drinking and sports betting 
+behaviors among college students and then using Pingouin to do logistic analysis. 
+
+```{=html}
+<!-- PDF PREVIEW
+  - Replace "example_report.pdf" with your actual filename
+  - Make sure the PDF is saved in the same folder as this .qmd file
+  - width="100%" makes it stretch to fill the page column
+  - height="600px" controls how tall the preview box is — increase for longer docs
+  - The <p> fallback text shows only if the browser can't render the PDF inline
+    (uncommon, but good to have)
+-->
+```
+
+<iframe src="An Analysis of The Relationship Between Moderate Social Drinking and Sports Betting.pdf" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 4px;">
+
+<p>Your browser can't preview PDFs. <a href="An Analysis of The Relationship Between Moderate Social Drinking and Sports Betting.pdf">Click here to download instead.</a></p>
+
+</iframe>
+
+<!-- OPTIONAL: direct download link below the preview -->
+
+[⬇ Download PDF](An Analysis of The Relationship Between Moderate Social Drinking and Sports Betting.pdf)
+
+------------------------------------------------------------------------
+
+
+```{=html}
+<!-- ============================================================
+  PROJECT 1
+  ✏️ Fill in every placeholder marked with ✏️
+  Copy this entire block (up to the next ---) to add more projects.
+============================================================ -->
+```
+
+## Using TensorFlow and PyTorch to Detect Tremors
+
+**Course:**  Bai lab — Under Sicheng Xing\
+**Date:** Ongoing\
+**Tags:** `Pytorch` `Visualization` `Tensorflow` `Python` `Github` <!-- Tags: just type whatever labels apply, wrapped in backticks like above --> Developing convolutional neural networks and autoencoders to denoise biosensor time-series data and classify electrophysiological 
+tremor patterns.  
+
+```{=html}
+<!-- PDF PREVIEW
+  - Replace "example_report.pdf" with your actual filename
+  - Make sure the PDF is saved in the same folder as this .qmd file
+  - width="100%" makes it stretch to fill the page column
+  - height="600px" controls how tall the preview box is — increase for longer docs
+  - The <p> fallback text shows only if the browser can't render the PDF inline
+    (uncommon, but good to have)
+-->
+```
+
+------------------------------------------------------------------------
+
+```{=html}
+<!-- ============================================================
+  PROJECT 1
+  ✏️ Fill in every placeholder marked with ✏️
+  Copy this entire block (up to the next ---) to add more projects.
+============================================================ -->
+```
+
+## A Peace and Safety Centered Analysis of Education, Mental Health Provider Accessibility, and Food Insecurity in Edgecomb County
+
+**Organization:**  Biokind Analytics\
+**Date:** August 2025 -  April 2026\
+**Tags:** `Python` `PCA` `Visualization` `OLS` <!-- Tags: just type whatever labels apply, wrapped in backticks like above -->  Using visualization as well as PCA analysis to examine multiple social determinants with multicollinearity to strategize on how to improve those social determinants. 
+
+```{=html}
+<!-- PDF PREVIEW
+  - Replace "example_report.pdf" with your actual filename
+  - Make sure the PDF is saved in the same folder as this .qmd file
+  - width="100%" makes it stretch to fill the page column
+  - height="600px" controls how tall the preview box is — increase for longer docs
+  - The <p> fallback text shows only if the browser can't render the PDF inline
+    (uncommon, but good to have)
+-->
+```
+
+<iframe src="Biokind Write Up - Perry Sorenson.pdf" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 4px;">
+
+<p>Your browser can't preview PDFs. <a href="Biokind Write Up - Perry Sorenson.pdf">Click here to download instead.</a></p>
+
+</iframe>
+
+<!-- OPTIONAL: direct download link below the preview -->
+
+[⬇ Download PDF](Biokind Write Up - Perry Sorenson.pdf)
+
+------------------------------------------------------------------------

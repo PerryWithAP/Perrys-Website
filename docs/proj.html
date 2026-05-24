@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Projects – Perry Sorenson Personal Website</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -31,15 +34,16 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e190511a3d21185c0870d94c400fb6e1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dbd86a02bbe277b8a8cf0ddc412c9625.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/videojs/video.min.js"></script>
+<link href="site_libs/quarto-contrib/videojs/video-js.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -102,8 +106,6 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Perry Sorenson Personal Website</span>
     </a>
@@ -141,9 +143,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#project-title" id="toc-project-title" class="nav-link active" data-scroll-target="#project-title">✏️ Project Title</a></li>
-  <li><a href="#project-title-1" id="toc-project-title-1" class="nav-link" data-scroll-target="#project-title-1">✏️ Project Title</a></li>
-  <li><a href="#project-title-2" id="toc-project-title-2" class="nav-link" data-scroll-target="#project-title-2">✏️ Project Title</a></li>
+  <li><a href="#dashboard-for-different-metrics-of-a-simulated-heart-model" id="toc-dashboard-for-different-metrics-of-a-simulated-heart-model" class="nav-link active" data-scroll-target="#dashboard-for-different-metrics-of-a-simulated-heart-model">Dashboard for Different Metrics of a Simulated Heart Model</a></li>
+  <li><a href="#using-high-performance-computing-paraview-and-ffmpeg-to-create-videos-of-simulated-heart-model" id="toc-using-high-performance-computing-paraview-and-ffmpeg-to-create-videos-of-simulated-heart-model" class="nav-link" data-scroll-target="#using-high-performance-computing-paraview-and-ffmpeg-to-create-videos-of-simulated-heart-model">Using High Performance Computing, Paraview, and Ffmpeg To Create Videos of Simulated Heart Model</a></li>
+  <li><a href="#chinese-donations-to-latin-countries-during-covid-19-effectiveness-and-pre-emptiveness-analysis" id="toc-chinese-donations-to-latin-countries-during-covid-19-effectiveness-and-pre-emptiveness-analysis" class="nav-link" data-scroll-target="#chinese-donations-to-latin-countries-during-covid-19-effectiveness-and-pre-emptiveness-analysis">Chinese Donations To Latin Countries During COVID-19 Effectiveness and Pre-emptiveness Analysis</a></li>
+  <li><a href="#an-analysis-of-the-relationship-between-moderate-social-drinking-and-sports-betting" id="toc-an-analysis-of-the-relationship-between-moderate-social-drinking-and-sports-betting" class="nav-link" data-scroll-target="#an-analysis-of-the-relationship-between-moderate-social-drinking-and-sports-betting">An Analysis of The Relationship Between Moderate Social Drinking and Sports Betting</a></li>
+  <li><a href="#using-tensorflow-and-pytorch-to-detect-tremors" id="toc-using-tensorflow-and-pytorch-to-detect-tremors" class="nav-link" data-scroll-target="#using-tensorflow-and-pytorch-to-detect-tremors">Using TensorFlow and PyTorch to Detect Tremors</a></li>
+  <li><a href="#a-peace-and-safety-centered-analysis-of-education-mental-health-provider-accessibility-and-food-insecurity-in-edgecomb-county" id="toc-a-peace-and-safety-centered-analysis-of-education-mental-health-provider-accessibility-and-food-insecurity-in-edgecomb-county" class="nav-link" data-scroll-target="#a-peace-and-safety-centered-analysis-of-education-mental-health-provider-accessibility-and-food-insecurity-in-edgecomb-county">A Peace and Safety Centered Analysis of Education, Mental Health Provider Accessibility, and Food Insecurity in Edgecomb County</a></li>
   </ul>
 </nav>
     </div>
@@ -170,22 +175,20 @@ ul.task-list li input[type="checkbox"] {
 
 
 <!-- ============================================================
-  OPTIONAL: Short intro sentence at the top of the page.
-  ✏️ Replace or delete this.
-  Example: "Here's a selection of projects from my coursework and personal work."
+  A lot of my projects have come naturally from college courses, research assistant work, and self teaching myself how to code and use data science techniques.
 ============================================================ -->
-<p>✏️ A brief intro about your projects goes here.</p>
+<p>A lot of my projects have come naturally from college courses, research assistant work, and self teaching myself how to code and use data science techniques.</p>
 <hr>
 <!-- ============================================================
   PROJECT 1
   ✏️ Fill in every placeholder marked with ✏️
   Copy this entire block (up to the next ---) to add more projects.
 ============================================================ -->
-<section id="project-title" class="level2">
-<h2 class="anchored" data-anchor-id="project-title">✏️ Project Title</h2>
-<p><strong>Course:</strong> ✏️ COMP 101 — Introduction to Programming<br>
-<strong>Date:</strong> ✏️ Fall 2024<br>
-<strong>Tags:</strong> ✏️ <code>Python</code> <code>Data Analysis</code> <code>Visualization</code> <!-- Tags: just type whatever labels apply, wrapped in backticks like above --> ✏️ Write 2–3 sentences describing what this project is about, what problem it solves, and what tools or methods you used. Keep it approachable — imagine explaining it to someone outside your major.</p>
+<section id="dashboard-for-different-metrics-of-a-simulated-heart-model" class="level2">
+<h2 class="anchored" data-anchor-id="dashboard-for-different-metrics-of-a-simulated-heart-model">Dashboard for Different Metrics of a Simulated Heart Model</h2>
+<p><strong>Lab:</strong> Cardiovascular Modeling and Simulation Laboratory — Under David Wells<br>
+<strong>Date:</strong> May 2025 - February 2026<br>
+<strong>Tags:</strong> <code>Python</code> <code>Visualization</code> <code>Plotly</code> <code>Calculus</code> <code>Github</code><!-- Tags: just type whatever labels apply, wrapped in backticks like above --> Making an interactive visualization portal using a python package called plotly to observe various metrics of the heart including volume, pressure, and flow within the left ventricle of a simulated heart. Creating a system that determines if the flow is into or out of the heart and visualizes a pressure-volume loop based on that information.</p>
 <!-- PDF PREVIEW
   - Replace "example_report.pdf" with your actual filename
   - Make sure the PDF is saved in the same folder as this .qmd file
@@ -194,54 +197,126 @@ ul.task-list li input[type="checkbox"] {
   - The <p> fallback text shows only if the browser can't render the PDF inline
     (uncommon, but good to have)
 -->
-<iframe src="example_report.pdf" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 4px;">
+<iframe src="Dashboard-Griffith-OutputExample.pdf" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 4px;">
 <p>
-Your browser can’t preview PDFs. <a href="✏️ example_report.pdf">Click here to download instead.</a>
+Your browser can’t preview PDFs. <a href=" Dashboard-Griffith-OutputExample.pdf">Click here to download instead.</a>
 </p>
 </iframe>
 <!-- OPTIONAL: direct download link below the preview -->
-<p><a href="✏️ example_report.pdf">⬇ Download PDF</a></p>
+<p><a href="Dashboard-Griffith-OutputExample.pdf">⬇ Download PDF</a></p>
 <hr>
 <!-- ============================================================
   PROJECT 2
   ✏️ Same structure as above — fill in your details
 ============================================================ -->
 </section>
-<section id="project-title-1" class="level2">
-<h2 class="anchored" data-anchor-id="project-title-1">✏️ Project Title</h2>
-<p><strong>Course:</strong> ✏️ STOR 155 — Introduction to Statistics<br>
-<strong>Date:</strong> ✏️ Spring 2025<br>
-<strong>Tags:</strong> ✏️ <code>R</code> <code>Statistics</code> <code>ggplot2</code></p>
-<p>✏️ Description of your second project goes here.</p>
-<iframe src="example_report2.pdf" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 4px;">
-<p>
-Your browser can’t preview PDFs. <a href="✏️ example_report2.pdf">Click here to download instead.</a>
-</p>
-</iframe>
-<p><a href="✏️ example_report2.pdf">⬇ Download PDF</a></p>
+<section id="using-high-performance-computing-paraview-and-ffmpeg-to-create-videos-of-simulated-heart-model" class="level2">
+<h2 class="anchored" data-anchor-id="using-high-performance-computing-paraview-and-ffmpeg-to-create-videos-of-simulated-heart-model">Using High Performance Computing, Paraview, and Ffmpeg To Create Videos of Simulated Heart Model</h2>
+<p><strong>Lab:</strong> Cardiovascular Modeling and Simulation Laboratory — Under David Wells<br>
+<strong>Date:</strong> February 2026 - Now<br>
+<strong>Tags:</strong> <code>Linux</code> <code>HPC</code> <code>Paraview</code> <code>Python</code> <code>ffmpeg</code></p>
+<p>Using the university’s HPC called Longleaf to extract 3D visuals through shell scripts and then using a linux package ffmpeg to create movies to show the flow of individual liquid particles in the heart over time.</p>
+<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-big-play-centered vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="output.mp4"></video></div>
+
+<p><a href="output.mp4">⬇ Download MP4</a></p>
 <hr>
 <!-- ============================================================
   PROJECT 3
   ✏️ Same structure — delete this block entirely if you only have 2 projects
 ============================================================ -->
 </section>
-<section id="project-title-2" class="level2">
-<h2 class="anchored" data-anchor-id="project-title-2">✏️ Project Title</h2>
-<p><strong>Course:</strong> ✏️ BIOL 201 — Cell Biology<br>
-<strong>Date:</strong> ✏️ Fall 2025<br>
-<strong>Tags:</strong> ✏️ <code>Research</code> <code>Lab Report</code> <code>Data Collection</code></p>
-<p>✏️ Description of your third project goes here.</p>
-<iframe src="example_report3.pdf" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 4px;">
+<section id="chinese-donations-to-latin-countries-during-covid-19-effectiveness-and-pre-emptiveness-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="chinese-donations-to-latin-countries-during-covid-19-effectiveness-and-pre-emptiveness-analysis">Chinese Donations To Latin Countries During COVID-19 Effectiveness and Pre-emptiveness Analysis</h2>
+<p><strong>Course:</strong> STOR 320 — Introduction to Data Science<br>
+<strong>Date:</strong> Fall 2025<br>
+<strong>Tags:</strong> <code>Python</code> <code>Data Science</code> <code>Project Management</code> <code>Epidemiology</code> <code>Statistics</code></p>
+<p>Applied epidemiological modeling methods like the distributed lag model to evaluate relationships between medical item donations and COVID-19 outcomes across Latin American countries at different points of time.</p>
+<iframe src="An analysis of effectiveness of medical item donations to various Latin American countries during COVID-19.pdf" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 4px;">
 <p>
-Your browser can’t preview PDFs. <a href="✏️ example_report3.pdf">Click here to download instead.</a>
+Your browser can’t preview PDFs. <a href="An analysis of effectiveness of medical item donations to various Latin American countries during COVID-19.pdf">Click here to download instead.</a>
 </p>
 </iframe>
-<p><a href="✏️ example_report3.pdf">⬇ Download PDF</a></p>
+<p><a href="An analysis of effectiveness of medical item donations to various Latin American countries during COVID-19.pdf">⬇ Download PDF</a></p>
 <!-- ============================================================
   ADDING MORE PROJECTS LATER
   To add a new project, copy everything between two --- dividers
   and paste it at the bottom. Update all the ✏️ placeholders.
 ============================================================ -->
+<hr>
+<!-- ============================================================
+  PROJECT 1
+  ✏️ Fill in every placeholder marked with ✏️
+  Copy this entire block (up to the next ---) to add more projects.
+============================================================ -->
+</section>
+<section id="an-analysis-of-the-relationship-between-moderate-social-drinking-and-sports-betting" class="level2">
+<h2 class="anchored" data-anchor-id="an-analysis-of-the-relationship-between-moderate-social-drinking-and-sports-betting">An Analysis of The Relationship Between Moderate Social Drinking and Sports Betting</h2>
+<p><strong>Course:</strong> EPID 600 — Principles of Epidemiology for Public Health<br>
+<strong>Date:</strong> Spring 2026<br>
+<strong>Tags:</strong> <code>Epidemiolgy</code> <code>Logistic Regression</code> <code>Survey Design</code> <code>Pingouin</code> <!-- Tags: just type whatever labels apply, wrapped in backticks like above --> Conducting survey-based epidemiological analysis examining relationships between moderate social drinking and sports betting behaviors among college students and then using Pingouin to do logistic analysis.</p>
+<!-- PDF PREVIEW
+  - Replace "example_report.pdf" with your actual filename
+  - Make sure the PDF is saved in the same folder as this .qmd file
+  - width="100%" makes it stretch to fill the page column
+  - height="600px" controls how tall the preview box is — increase for longer docs
+  - The <p> fallback text shows only if the browser can't render the PDF inline
+    (uncommon, but good to have)
+-->
+<iframe src="An Analysis of The Relationship Between Moderate Social Drinking and Sports Betting.pdf" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 4px;">
+<p>
+Your browser can’t preview PDFs. <a href="An Analysis of The Relationship Between Moderate Social Drinking and Sports Betting.pdf">Click here to download instead.</a>
+</p>
+</iframe>
+<!-- OPTIONAL: direct download link below the preview -->
+<p><a href="An Analysis of The Relationship Between Moderate Social Drinking and Sports Betting.pdf">⬇ Download PDF</a></p>
+<hr>
+<!-- ============================================================
+  PROJECT 1
+  ✏️ Fill in every placeholder marked with ✏️
+  Copy this entire block (up to the next ---) to add more projects.
+============================================================ -->
+</section>
+<section id="using-tensorflow-and-pytorch-to-detect-tremors" class="level2">
+<h2 class="anchored" data-anchor-id="using-tensorflow-and-pytorch-to-detect-tremors">Using TensorFlow and PyTorch to Detect Tremors</h2>
+<p><strong>Course:</strong> Bai lab — Under Sicheng Xing<br>
+<strong>Date:</strong> Ongoing<br>
+<strong>Tags:</strong> <code>Pytorch</code> <code>Visualization</code> <code>Tensorflow</code> <code>Python</code> <code>Github</code> <!-- Tags: just type whatever labels apply, wrapped in backticks like above --> Developing convolutional neural networks and autoencoders to denoise biosensor time-series data and classify electrophysiological tremor patterns.</p>
+<!-- PDF PREVIEW
+  - Replace "example_report.pdf" with your actual filename
+  - Make sure the PDF is saved in the same folder as this .qmd file
+  - width="100%" makes it stretch to fill the page column
+  - height="600px" controls how tall the preview box is — increase for longer docs
+  - The <p> fallback text shows only if the browser can't render the PDF inline
+    (uncommon, but good to have)
+-->
+<hr>
+<!-- ============================================================
+  PROJECT 1
+  ✏️ Fill in every placeholder marked with ✏️
+  Copy this entire block (up to the next ---) to add more projects.
+============================================================ -->
+</section>
+<section id="a-peace-and-safety-centered-analysis-of-education-mental-health-provider-accessibility-and-food-insecurity-in-edgecomb-county" class="level2">
+<h2 class="anchored" data-anchor-id="a-peace-and-safety-centered-analysis-of-education-mental-health-provider-accessibility-and-food-insecurity-in-edgecomb-county">A Peace and Safety Centered Analysis of Education, Mental Health Provider Accessibility, and Food Insecurity in Edgecomb County</h2>
+<p><strong>Organization:</strong> Biokind Analytics<br>
+<strong>Date:</strong> August 2025 - April 2026<br>
+<strong>Tags:</strong> <code>Python</code> <code>PCA</code> <code>Visualization</code> <code>OLS</code> <!-- Tags: just type whatever labels apply, wrapped in backticks like above --> Using visualization as well as PCA analysis to examine multiple social determinants with multicollinearity to strategize on how to improve those social determinants.</p>
+<!-- PDF PREVIEW
+  - Replace "example_report.pdf" with your actual filename
+  - Make sure the PDF is saved in the same folder as this .qmd file
+  - width="100%" makes it stretch to fill the page column
+  - height="600px" controls how tall the preview box is — increase for longer docs
+  - The <p> fallback text shows only if the browser can't render the PDF inline
+    (uncommon, but good to have)
+-->
+<iframe src="Biokind Write Up - Perry Sorenson.pdf" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 4px;">
+<p>
+Your browser can’t preview PDFs. <a href="Biokind Write Up - Perry Sorenson.pdf">Click here to download instead.</a>
+</p>
+</iframe>
+<!-- OPTIONAL: direct download link below the preview -->
+<p><a href="Biokind Write Up - Perry Sorenson.pdf">⬇ Download PDF</a></p>
+<hr>
 
 
 </section>
@@ -648,6 +723,7 @@ Your browser can’t preview PDFs. <a href="✏️ example_report3.pdf">Click he
   });
   </script>
 </div> <!-- /content -->
+<script>videojs(video_shortcode_videojs_video1);</script>
 
 
 
